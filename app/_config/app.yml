@@ -1,0 +1,8 @@
+---
+Name: kuzhalosi
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: themes
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Custom\SiteConfigExtension

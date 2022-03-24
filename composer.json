@@ -1,0 +1,52 @@
+{
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "Owllow developers",
+    "homepage": "https://github.com/Yathursang/Silverstart",
+    "keywords": ["silverstripe", "some-tag", "some-other-tag"],
+    "license": "BSD-3-Clause",
+
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "silverstripe/recipe-plugin": "^1.2",
+        "silverstripe/recipe-cms": "~4.10.0@stable",
+        "silverstripe-themes/simple": "~3.2.0",
+        "silverstripe/login-forms": "~4.6.0@stable",
+        "silverstripe/blog": "^3.9",
+        "andrewhaine/silverstripe-form-capture": "dev-master",
+        "silverstripe/widgets": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "resources-dir": "_resources",
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ],
+        "expose": [
+            "themes/kuzhalosai/css",
+            "themes/kuzhalosai/vendor",
+            "themes/kuzhalosai/javascript",
+            "themes/kuzhalosai/img"
+
+
+
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
