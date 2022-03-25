@@ -1,6 +1,6 @@
 ## Overview
 
-This project created by Lalith & Yathursan for Origami ([https://www.origami-brand.com](https://www.origami-brand.com/)) team to include all CMS basic content. also this repository inculde the stable database with silverstart name or silverstart.. extention
+This project created by Yathursan for Origami, include all CMS basic content. also this repository inculde the stable database with silverstart name or silverstart.. extention
 
 ## Basic Important comment ##
 `composer vendor-expose`
@@ -19,7 +19,7 @@ See [Getting Started](https://docs.silverstripe.org/en/4/getting_started/) for m
 ## Google Map ##
 Google map important documentation
 [Place Autocomplete](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-html)
-[You tube tutorial] (https://www.youtube.com/watch?v=sYbrGlh5-fw)
+
 [answer] : (https://forumarchive.silverstripe.org/community/forums/general-questions/show/14596)
 ## Bugtracker ##
 
